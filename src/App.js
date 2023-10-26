@@ -1,5 +1,6 @@
 import { useState } from "react";
 
+
 function App() {
   const [value, setValue] = useState(0)
   return (
@@ -10,9 +11,11 @@ function App() {
       <button className="btn" onClick={() => setValue(value + 1)}>Increment</button>
       <button className="btn" onClick={() => setValue(value - 1)}>Decrement</button>
       <button className="btn" onClick={() => setValue(0)}>Reset</button>
+
+      
     </div>
 
-    </>
+</>
   )
 }
 
