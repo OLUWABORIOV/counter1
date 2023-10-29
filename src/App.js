@@ -6,7 +6,7 @@ function App() {
   return (
     <>
     <div>
-      <h1>Simple React Counter</h1>
+      <h1>Simple React Counte App</h1>
       <h2>{value}</h2>
       <button className="btn" onClick={() => setValue(value + 1)}>Increment</button>
       <button className="btn" onClick={() => setValue(value - 1)}>Decrement</button>
